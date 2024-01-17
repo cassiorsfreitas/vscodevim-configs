@@ -1,5 +1,5 @@
 {
-  // VIM
+  // ---------- VIM ---------- //
   "vim.leader": "<Space>",
   "vim.foldfix": true,
   "vim.useSystemClipboard": true,
@@ -16,296 +16,464 @@
   },
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["u"],
-      "commands": ["undo"]
+      "before": [
+        "u"
+      ],
+      "commands": [
+        "undo"
+      ]
     },
     {
-      "before": ["tab"],
-      "commands": ["editor.action.indentLines"]
+      "before": [
+        "tab"
+      ],
+      "commands": [
+        "editor.action.indentLines"
+      ]
     },
     {
-      "before": ["<S-tab>"],
-      "commands": ["editor.action.outdentLines"]
+      "before": [
+        "<S-tab>"
+      ],
+      "commands": [
+        "editor.action.outdentLines"
+      ]
     },
     {
-      "before": ["<Leader>", "h"],
+      "before": [
+        "<Leader>",
+        "h"
+      ],
       "commands": [
         "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
       ]
     },
     {
-      "before": ["<Leader>", "g"],
-      "commands": ["gitlens.diffLineWithWorking"]
+      "before": [
+        "<Leader>",
+        "g"
+      ],
+      "commands": [
+        "gitlens.diffLineWithWorking"
+      ]
     },
     {
-      "before": ["<Leader>", "b"],
-      "commands": ["gitlens.showQuickBranchHistory"]
+      "before": [
+        "<Leader>",
+        "b"
+      ],
+      "commands": [
+        "gitlens.showQuickBranchHistory"
+      ]
     },
     {
-      "before": ["<Leader>", "d"],
-      "commands": ["editor.action.dirtydiff.next"]
+      "before": [
+        "<Leader>",
+        "d"
+      ],
+      "commands": [
+        "editor.action.dirtydiff.next"
+      ]
     },
     {
-      "before": ["<Leader>", "D"],
-      "commands": ["git.revertSelectedRanges"]
+      "before": [
+        "<Leader>",
+        "D"
+      ],
+      "commands": [
+        "git.revertSelectedRanges"
+      ]
     },
     {
-      "before": ["<Leader>", "s"],
-      "commands": ["workbench.view.search"]
+      "before": [
+        "<Leader>",
+        "s"
+      ],
+      "commands": [
+        "workbench.view.search"
+      ]
     },
     {
-      "before": ["<Leader>", "e"],
-      "commands": ["workbench.view.explorer"]
+      "before": [
+        "<Leader>",
+        "e"
+      ],
+      "commands": [
+        "workbench.view.explorer"
+      ]
     },
     {
-      "before": ["<Leader>", "p"],
-      "commands": ["workbench.action.showCommands"]
+      "before": [
+        "<Leader>",
+        "p"
+      ],
+      "commands": [
+        "workbench.action.showCommands"
+      ]
     },
     {
-      "before": ["<Leader>", "w"],
-      "commands": ["workbench.action.files.save"]
+      "before": [
+        "<Leader>",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
     },
     {
-      "before": ["<Leader>", "f"],
-      "commands": ["workbench.action.quickOpen"]
+      "before": [
+        "<Leader>",
+        "f"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
     },
     {
-      "before": ["<Leader>", "t"],
-      "commands": ["workbench.action.gotoSymbol"]
+      "before": [
+        "<Leader>",
+        "t"
+      ],
+      "commands": [
+        "workbench.action.gotoSymbol"
+      ]
     },
     {
-      "before": ["<Leader>", "a"],
-      "commands": ["editor.action.quickFix"]
+      "before": [
+        "<Leader>",
+        "a"
+      ],
+      "commands": [
+        "editor.action.quickFix"
+      ]
     },
     {
-      "before": ["<S-h>"],
-      "commands": [":bprevious"]
+      "before": [
+        "<S-h>"
+      ],
+      "commands": [
+        ":bprevious"
+      ]
     },
     {
-      "before": ["<S-l>"],
-      "commands": [":bnext"]
+      "before": [
+        "<S-l>"
+      ],
+      "commands": [
+        ":bnext"
+      ]
     },
     {
-      "before": ["<Leader>", "v", "v"],
-      "commands": [":vsplit"]
+      "before": [
+        "<Leader>",
+        "v",
+        "v"
+      ],
+      "commands": [
+        ":vsplit"
+      ]
     },
     {
-      "before": ["<Leader>", "v", "s"],
-      "commands": [":split"]
+      "before": [
+        "<Leader>",
+        "v",
+        "s"
+      ],
+      "commands": [
+        ":split"
+      ]
     },
     {
-      "before": ["<Leader>", "v", "l"],
-      "commands": ["workbench.action.moveEditorToNextGroup"]
+      "before": [
+        "<Leader>",
+        "v",
+        "l"
+      ],
+      "commands": [
+        "workbench.action.moveEditorToNextGroup"
+      ]
     },
     {
-      "before": ["<Leader>", "v", "h"],
-      "commands": ["workbench.action.moveEditorToPreviousGroup"]
+      "before": [
+        "<Leader>",
+        "v",
+        "h"
+      ],
+      "commands": [
+        "workbench.action.moveEditorToPreviousGroup"
+      ]
     },
     {
-      "before": ["<Leader>", "<esc>"],
-      "commands": [":nohl"]
+      "before": [
+        "<Leader>",
+        "<esc>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
     },
     {
-      "before": ["<Leader>", "l", "j"],
-      "commands": ["editor.action.marker.next"]
+      "before": [
+        "<Leader>",
+        "l",
+        "j"
+      ],
+      "commands": [
+        "editor.action.marker.next"
+      ]
     },
     {
-      "before": ["<Leader>", "l", "k"],
-      "commands": ["editor.action.marker.prev"]
+      "before": [
+        "<Leader>",
+        "l",
+        "k"
+      ],
+      "commands": [
+        "editor.action.marker.prev"
+      ]
     },
     {
-      "before": ["<Leader>", "k"],
-      "commands": ["editor.action.showHover"]
+      "before": [
+        "<Leader>",
+        "k"
+      ],
+      "commands": [
+        "editor.action.showHover"
+      ]
     },
     {
-      "before": ["g", "r"],
-      "commands": ["editor.action.rename"]
+      "before": [
+        "g",
+        "r"
+      ],
+      "commands": [
+        "editor.action.rename"
+      ]
     },
     {
-      "before": ["<Leader>", "c"],
-      "commands": ["editor.action.commentLine"],
+      "before": [
+        "<Leader>",
+        "c"
+      ],
+      "commands": [
+        "editor.action.commentLine"
+      ],
       "when": "editorTextFocus && !editorReadonly"
     },
     {
-      "before": ["<Leader>", "j", "f"],
-      "after": ["<Leader>", "<Leader>", "f"]
+      "before": [
+        "<Leader>",
+        "j",
+        "f"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "f"
+      ]
     },
     {
-      "before": ["<Leader>", "j", "w"],
-      "after": ["<Leader>", "<Leader>", "w"]
+      "before": [
+        "<Leader>",
+        "j",
+        "w"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "w"
+      ]
     },
     {
-      "before": ["<Leader>", "j", "b"],
-      "after": ["<Leader>", "<Leader>", "b"]
+      "before": [
+        "<Leader>",
+        "j",
+        "b"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "b"
+      ]
     },
     {
-      "before": ["<Leader>", "j", "e"],
-      "after": ["<Leader>", "<Leader>", "e"]
+      "before": [
+        "<Leader>",
+        "j",
+        "e"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "e"
+      ]
     },
     {
-      "before": ["<Leader>", "j", "j"],
-      "after": ["<Leader>", "<Leader>", "j"]
+      "before": [
+        "<Leader>",
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "j"
+      ]
     },
     {
-      "before": ["<Leader>", "j", "k"],
-      "after": ["<Leader>", "<Leader>", "k"]
+      "before": [
+        "<Leader>",
+        "j",
+        "k"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "k"
+      ]
     },
     {
-      "before": ["<Leader>", "j", "s"],
-      "after": ["<Leader>", "<Leader>", "s"]
+      "before": [
+        "<Leader>",
+        "j",
+        "s"
+      ],
+      "after": [
+        "<Leader>",
+        "<Leader>",
+        "s"
+      ]
     },
     {
-      "before": ["g", "a"],
-      "commands": ["references-view.findReferences"]
+      "before": [
+        "g",
+        "a"
+      ],
+      "commands": [
+        "references-view.findReferences"
+      ]
     },
     {
-      "before": ["<Leader>", "q"],
-      "commands": ["workbench.action.quickOpenView"]
+      "before": [
+        "<Leader>",
+        "q"
+      ],
+      "commands": [
+        "workbench.action.quickOpenView"
+      ]
     }
   ],
   "vim.insertModeKeyBindingsNonRecursive": [
     {
-      "before": ["j", "j"],
-      "after": ["<esc>"]
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<esc>"
+      ]
     }
   ],
   "vim.visualModeKeyBindings": [
     {
-      "before": ["<Leader>", "c"],
-      "commands": ["editor.action.commentLine"],
+      "before": [
+        "<Leader>",
+        "c"
+      ],
+      "commands": [
+        "editor.action.commentLine"
+      ],
       "when": "editorTextFocus && !editorReadonly"
     },
     {
-      "before": ["tab"],
-      "commands": ["editor.action.indentLines"]
+      "before": [
+        "tab"
+      ],
+      "commands": [
+        "editor.action.indentLines"
+      ]
     },
     {
-      "before": ["<S-tab>"],
-      "commands": ["editor.action.outdentLines"]
+      "before": [
+        "<S-tab>"
+      ],
+      "commands": [
+        "editor.action.outdentLines"
+      ]
     }
   ],
-
-  // GENERAL
-  "workbench.editor.revealIfOpen": true,
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.fontSize": 16,
-  "javascript.suggest.autoImports": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.rulers": [80, 120],
-  "extensions.ignoreRecommendations": true,
-  "typescript.tsserver.log": "off",
-  "files.associations": {
-    ".sequelizerc": "javascript",
-    ".stylelintrc": "json",
-    "*.tsx": "typescriptreact",
-    ".env.*": "dotenv",
-    ".prettierrc": "json"
-  },
+  // ---------- BASE ---------- //
+  "editor.cursorSurroundingLines": 5,
   "editor.lineNumbers": "relative",
-  "editor.parameterHints.enabled": false,
   "editor.renderLineHighlight": "all",
-  "editor.scrollbar.vertical": "hidden",
-  "editor.scrollbar.horizontal": "hidden",
-  "window.titleBarStyle": "native",
+  "editor.stickyScroll.enabled": true,
+  "editor.formatOnSave": true,
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#ffffff13",
     "editor.lineHighlightBorder": "#00000000",
-    "editorStickyScroll.background": "#181a1f",
+    "editorStickyScroll.background": "#1A1A1A",
     "editorStickyScrollHover.background": "#272930"
   },
-  "cSpell.language": "en,en-GB",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "workbench.colorTheme": "Min Dark",
+  "workbench.statusBar.visible": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // ---------- GENERAL ---------- //
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontSize": 16,
   "editor.lineHeight": 26,
-  "window.commandCenter": true,
-  "apc.activityBar": {
-    "position": "bottom",
-    "hideSettings": true,
-    "size": 48,
-    "itemMargin": 8,
-    "itemSize": 32
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "extensions.ignoreRecommendations": true,
+  "typescript.tsserver.log": "off",
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css"
   },
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 11,
-      "y": 10
-    },
-    "frame": false
+  "symbols.files.associations": {
+    "*.module.ts": "nest",
+    "*.guard.ts": "typescript",
+    "*.spec.ts": "ts-test",
+    "*.e2e-spec.ts": "ts-test",
+    "vitest.config.e2e.ts": "vite",
+    ".env.example": "gear"
   },
-  "apc.header": {
-    "height": 36
-  },
-  "apc.listRow": {
-    "height": 24
-  },
-  "apc.stylesheet": {
-    ".title-label > h2": "display: none",
-    ".editor-actions": "display: none",
-    ".nosidebar .inline-tabs-placeholder": "width: 75px",
-    ".pane-header": "padding: 0 8px",
-    ".pane-body": "padding: 8px",
-    ".split-view-view:first-child .pane-header": "display: none !important;",
-    ".monaco-list-row": "border-radius: 4px;",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
-  },
-  "material-icon-theme.languages.associations": {
-    "dotenv": "tune"
-  },
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  "material-icon-theme.files.associations": {
-    "tsconfig.json": "tune",
-    "*.webpack.js": "webpack",
-    "*.proto": "3d",
-    "ormconfig.json": "database"
-  },
-  "material-icon-theme.activeIconPack": "nest",
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "tv\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ]
+  ],
+  "editor.parameterHints.enabled": false,
+  "cSpell.language": "en,pt",
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.suggestSelection": "first",
-  "editor.suggest.insertMode": "replace",
   "explorer.confirmDelete": false,
   "gitlens.codeLens.recentChange.enabled": false,
   "terminal.integrated.showExitAlert": false,
-  "[prisma]": {
-    "editor.formatOnSave": true
-  },
   "typescript.suggest.autoImports": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
   "workbench.editor.labelFormat": "short",
   "editor.fontLigatures": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "material-icon-theme.folders.associations": {
-    "adapters": "contract",
-    "grpc": "pipe",
-    "kube": "kubernetes",
-    "main": "lib",
-    "websockets": "pipe",
-    "implementations": "core",
-    "protos": "pipe",
-    "entities": "class",
-    "kafka": "pipe",
-    "use-cases": "functions",
-    "migrations": "tools",
-    "schemas": "class",
-    "useCases": "functions",
-    "eslint-config": "tools",
-    "typeorm": "database",
-    "_shared": "shared",
-    "mappers": "meta",
-    "fakes": "mock",
-    "modules": "components",
-    "subscribers": "messages",
-    "domain": "class",
-    "protocols": "contract",
-    "infra": "app",
-    "view-models": "views",
-    "presentation": "template",
-    "dtos": "typescript",
-    "http": "container",
-    "providers": "include",
-    "factories": "class",
-    "repositories": "mappings"
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
   },
   "cSpell.enableFiletypes": [
     "!asciidoc",
@@ -331,55 +499,69 @@
   "git.enableSmartCommit": true,
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "graphql"
+  ],
   "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.productIconTheme": "fluent-icons",
   "editor.fontFamily": "JetBrains Mono",
   "gitlens.codeLens.authors.enabled": false,
   "editor.tabSize": 2,
-  "files.exclude": {
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/.hg": true,
-    "**/.svn": true,
-    "**/.git": true
-  },
-  "workbench.iconTheme": "material-icon-theme",
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "workbench.iconTheme": "symbols",
+  "update.mode": "start",
   "terminal.integrated.gpuAcceleration": "off",
-  "workbench.colorTheme": "Min Dark",
-  "editor.stickyScroll.enabled": true,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.minimap.enabled": false,
-  "editor.cursorSurroundingLines": 5,
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "gitlens.codeLens.enabled": false,
-  "workbench.layoutControl.enabled": false,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "window.commandCenter": true,
+  "git.openRepositoryInParentFolders": "always",
+  "symbols.hidesExplorerArrows": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "workbench.editor.empty.hint": "hidden",
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "update.showReleaseNotes": false,
+  "security.promptForLocalFileProtocolHandling": false,
   "workbench.activityBar.location": "hidden",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 48,
+    "itemMargin": 8,
+    "itemSize": 32
   },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.minimap.enabled": false,
+  "window.titleBarStyle": "native",
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 11,
+      "y": 10
+    },
+    "frame": false
   },
-  "diffEditor.ignoreTrimWhitespace": false,
+  "apc.header": {
+    "height": 36
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "apc.font.family": "Inter",
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+  },
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "explorer.sortOrder": "foldersNestsFiles",
   "cSpell.userWords": [
     "bootcamp",
     "chakra",
@@ -444,6 +626,4 @@
     "Usuario",
     "WEBPUSH"
   ],
-  "git.openRepositoryInParentFolders": "never",
-  "breadcrumbs.enabled": false
 }
